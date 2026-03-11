@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="corporate">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arquivo Confuso da Computação</title>
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html{
+scroll-behavior:smooth;
+}
+</style>
+
+</head>
+
+<body class="bg-base-200">
+
+<div class="container mx-auto p-6">
+
+
+<div class="navbar bg-primary text-primary-content rounded-box shadow mb-8">
+<div class="flex-1">
+<a class="btn btn-ghost text-xl">Arquivo da Computação</a>
+</div>
+
+<div class="flex-none">
+<ul class="menu menu-horizontal px-1">
+<li><a href="#pioneiros">Pioneiros</a></li>
+<li><a href="#bugs">Bugs</a></li>
+<li><a href="#internet">Internet</a></li>
+<li><a href="#linguagens">Linguagens</a></li>
+</ul>
+</div>
+</div>
+
+
+<header class="text-center mb-10">
+<h1 class="text-4xl font-bold">
+Arquivo (Quase) Perdido da Ciência da Computação
+</h1>
+
+<p class="opacity-70">
+Uma coletânea caótica de fatos históricos.
+</p>
+</header>
+
+
+
+
+<section id="pioneiros" class="mb-10 bg-info/10 p-6 rounded-box">
+
+<h2 class="text-2xl font-bold mb-4 text-info">👩‍💻 Pioneiros</h2>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<div class="card bg-base-100 shadow">
+<div class="card-body">
+
+<h3 class="card-title">Ada Lovelace</h3>
+
+<p>Primeira programadora da história.</p>
+
+<div class="collapse bg-base-200">
+<input type="checkbox">
+<div class="collapse-title font-medium">
+Ver mais
+</div>
+<div class="collapse-content">
+Ela escreveu o primeiro algoritmo para a Máquina Analítica.
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="card bg-base-100 shadow">
+<div class="card-body">
+
+<h3 class="card-title">Alan Turing</h3>
+
+<p>Criador do conceito de Máquina de Turing.</p>
+
+<blockquote class="italic opacity-70">
+Podemos ver apenas um pouco do futuro, mas o suficiente
+para perceber que há muito a fazer.
+</blockquote>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="bugs" class="mb-10 bg-error/10 p-6 rounded-box">
+
+<h2 class="text-2xl font-bold mb-4 text-error">🐞 Histórias de Bugs</h2>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<div class="card bg-base-100 shadow">
+<div class="card-body">
+
+<h3 class="card-title">Primeiro Bug</h3>
+
+<p>Uma mariposa encontrada em um computador em 1947.</p>
+
+</div>
+</div>
+
+<div class="card bg-base-100 shadow">
+<div class="card-body">
+
+<h3 class="card-title">Vírus Creeper</h3>
+
+<pre class="bg-base-200 p-3 rounded">
+I'M THE CREEPER : CATCH ME IF YOU CAN
+</pre>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="internet" class="mb-10 bg-secondary/10 p-6 rounded-box">
+
+<h2 class="text-2xl font-bold mb-4 text-secondary">🌐 Curiosidades da Internet</h2>
+
+<div class="card bg-base-100 shadow">
+
+<div class="card-body">
+
+<ul class="list-disc ml-6">
+<li>Primeiro site criado em 1991</li>
+<li>ARPANET enviou a mensagem "LO"</li>
+<li>Primeiros emojis eram ASCII :-) ;-)</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="linguagens" class="mb-10 bg-success/10 p-6 rounded-box">
+
+<h2 class="text-2xl font-bold mb-4 text-success">💻 Linguagens</h2>
+
+<div class="overflow-x-auto">
+
+<table class="table table-zebra">
+
+<thead>
+<tr>
+<th>Linguagem</th>
+<th>Ano</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>COBOL</td>
+<td>1959</td>
+</tr>
+
+<tr>
+<td>C</td>
+<td>1972</td>
+</tr>
+
+<tr>
+<td>Python</td>
+<td>1991</td>
+</tr>
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+
+
+<section class="mb-10">
+
+<form class="card bg-base-100 shadow p-6 max-w-lg">
+
+<h2 class="text-2xl font-bold mb-4">
+Envie uma curiosidade
+</h2>
+
+<label class="label">
+<span class="label-text">Nome</span>
+</label>
+
+<input name="nome" placeholder="Seu nome" class="input input-bordered w-full">
+
+<label class="label">
+<span class="label-text">Email</span>
+</label>
+
+<input type="email" name="email" placeholder="Seu email" class="input input-bordered w-full">
+
+<label class="label">
+<span class="label-text">Categoria</span>
+</label>
+
+<select class="select select-bordered w-full">
+<option>Pioneiros</option>
+<option>Bugs</option>
+<option>Internet</option>
+<option>Linguagens</option>
+</select>
+
+<button type="submit" class="btn btn-success mt-4">
+Enviar
+</button>
+
+</form>
+
+</section>
+
+
+
+<footer class="footer footer-center p-6 bg-base-300 rounded-box">
+
+<p>Arquivo Confuso da Computação</p>
+<p class="text-sm opacity-70">Projeto sobre história da computação</p>
+
+</footer>
+
+
+</div>
+
+</body>
+</html>
